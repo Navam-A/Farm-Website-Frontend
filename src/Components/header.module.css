@@ -1,0 +1,28 @@
+.header{
+    width: 100%;
+    background-color: #F3C142;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 5rem;
+    mix-blend-mode: multiply;
+}
+h2{
+    color: #574038;
+}
+a{
+    text-decoration: none;
+}
+.ul{
+    list-style-type: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+}
+.ul a{
+    font-size: 1.1rem;
+    margin-right: 10px;
+    color: #574038;
+    font-weight: 600;
+}

@@ -1,0 +1,11 @@
+footer{
+    background-color: #F3C142;
+    color: #574038;
+}
+.company{
+    margin-left: 25px;
+}
+.logo{
+    height: 5rem;
+    mix-blend-mode: multiply;
+}

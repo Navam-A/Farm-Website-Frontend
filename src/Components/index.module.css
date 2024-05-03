@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100vh;
+    width: 100%;
+}
+marquee a{
+    color: #574038;
+}
+.text_justify{
+    text-align: justify;
+}
+.width_18{
+    max-width:16.5rem;
+}
+.bgBrown{
+    background-color:#574038;
+}
+.bgYellow{
+    background-color: #F3D47C;
+}
+.grad{
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    width: 91%;
+    height: 50%;
+    background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 60%, #F3D47C 100%);
+    opacity: 0.7;
+    z-index: 1;
+}
+.viewMore{
+    width: auto;
+    border-radius: 20px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    border: none;
+    background-color: #5D3A12;
+    color: #fff;
+    padding: 10px 20px;
+}
+.cardText{
+    position: relative;
+    z-index: 2;
+    margin-bottom: 25px;
+}
+.yellowButton{
+    position: relative;
+    z-index: 2;
+    opacity: .8;
+    background-color: #F3C142;
+    border: 1px solid #5D3A12;
+    border-radius: 10px;
+    color: #5D3A12;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 15px;
+}
+.card_height{
+    max-height: 200px;
+}
