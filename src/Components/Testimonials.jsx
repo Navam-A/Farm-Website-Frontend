@@ -18,7 +18,7 @@ export default function Testimonials() {
   return (
     <>
       <div className={testimonialStyle.bgBrown}>
-        <h2 className="text-white text-center p-3">Services</h2>
+        <h2 className="text-white text-center p-3">Testimonials</h2>
       </div>
       <div className="container-fluid">
         <div className="row">
